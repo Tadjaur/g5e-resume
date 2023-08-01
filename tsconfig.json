@@ -10,4 +10,9 @@
   "files": [
     "src/index.ts",
   ],
+  "include": [
+    "tailwind.config.js",
+    "postcss.config.js",
+    "typings/media-import.d.ts"
+  ]
 }

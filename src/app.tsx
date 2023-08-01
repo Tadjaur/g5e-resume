@@ -1,16 +1,17 @@
 import React from 'react';
 import { createRoot } from "react-dom/client";
+import { Header } from './views/header';
 
 export function App(): React.ReactElement {
 	return (
 		<>
-			<h1>Hello world!</h1>
-			<h2>Tip: Check your console</h2>
+			<Header />
 		</>
 	);
 }
 
-const domNode = document.getElementById("root");
-const root = createRoot(domNode);
+const rootNode = document.getElementById("root");
+
+const root = createRoot(rootNode);
 
 root.render(<App />);
