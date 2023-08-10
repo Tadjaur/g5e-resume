@@ -41,7 +41,7 @@ const config: Configuration & { devServer: unknown } = {
         use: [stylesHandler, 'css-loader', 'postcss-loader'],
       },
       {
-        test: /\.(png|jpg|jpeg|svg|gif)$/i,
+        test: /\.(png|mp4|jpg|jpeg|svg|gif)$/i,
         type: 'asset/resource',
       },
       {

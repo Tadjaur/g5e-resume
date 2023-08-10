@@ -16,8 +16,8 @@ export function HeaderBackground(props:React.ComponentProps<'div'>): React.React
 					<use xlinkHref="#image0_528_14" transform="matrix(0.000864702 0 0 0.00138889 -0.0534093 0)" />
 				</pattern>
 				<radialGradient id="paint0_radial_528_14" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1028.5 330) rotate(89.1135) scale(517.062 1097.44)">
-					<stop stop-color="#352D2D" stop-opacity="0.25" />
-					<stop offset="0.666667" stop-color="#221C1C" />
+					<stop stopColor="#352D2D" stopOpacity="0.25" />
+					<stop offset="0.666667" stopColor="#221C1C" />
 				</radialGradient>
 				<BgImage/>
 			</defs>

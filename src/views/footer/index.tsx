@@ -16,9 +16,9 @@ function WorkingStack({ className }: { className: string }): React.ReactElement 
 	return (
 		<div className={className}>
 			<span className="text-3xl">Working stack</span>
-			<span className="text-lg">Engine: <Link href="https://pixijs.io">pixi.js</Link></span>
 			<span className="text-lg">Bundler: <Link href="https://webpack.js.org">webpack</Link></span>
 			<span className="text-lg">Website tech: <Link href="https://">html5, jsx(React.js)</Link></span>
+			<span className="text-lg">Engine: <Link href="https://pixijs.io">pixi.js (Available Soon)</Link></span>
 			<span className="text-lg">Design Software: <Link href="https://figma.com">figma</Link></span>
 			<span className="text-lg">CSS framework: <Link href="https://tailwindcss.com">tailwindcss</Link></span>
 			<span className="text-lg">Version Control System: <Link href="https://git-scm.com">git</Link></span>
@@ -31,7 +31,7 @@ function SomeLinks(): React.ReactElement {
 		<div className="flex flex-col gap-[inherit]">
 			<span className="text-3xl">Some Links</span>
 			<span className="text-lg">Developer linkedin: <Link href="https://linkedin.com/in/tadjaur">in/tadjaur</Link></span>
-			<span className="text-lg">Git project: <Link href="https://github.com/tadjaur/try_pixi">tadjaur/try_pixi</Link></span>
+			<span className="text-lg">Git project: <Link href="https://github.com/tadjaur/g5e-resume">tadjaur/g5e-resume</Link></span>
 			<span className="text-lg">Figma: <Link href="https://www.youtube.com/@g5games">youtube.com/@g5games</Link></span>
 		</div>
 	);
